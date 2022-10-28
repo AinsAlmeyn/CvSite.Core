@@ -1,0 +1,24 @@
+﻿@using CvSite.Core.Entities;
+@model Home
+
+@{
+    ViewData["Title"] = "Default";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+  <div id="hero" class="home">
+
+    <div class="container">
+      <div class="hero-content">
+        <h1>I'm <span class="typed" data-typed-items="@Model.Jobs"></span></h1>
+        <p>@Model.Jobs</p>
+
+        <ul class="list-unstyled list-social">
+          @*<li><a href="#"><i class="bi bi-facebook"></i></a></li>
+          <li><a href="#"><i class="bi bi-twitter"></i></a></li>*@
+          <li><a href="@Model.LinkInstagram"><i class="bi bi-instagram"></i></a></li>
+          <li><a href="@Model.LinkLinkedin"><i class="bi bi-linkedin"></i></a></li>
+        </ul>
+      </div>
+    </div>
+  </div>

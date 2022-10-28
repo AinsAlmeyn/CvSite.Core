@@ -11,18 +11,18 @@ using System.Threading.Tasks;
 
 namespace CvSite.Services.ServiceCon
 {
-    public class HomeService : GenericService<Home>,IHomeService
+    public class HomeService :  GenericService<Home> ,IHomeService
     {
-        private readonly IHomeRepository _repo;
+        private readonly IHomeRepository homeRepository;
 
-        public HomeService(IGenericRepository<Home> repo, IHomeRepository homerepo) : base(repo)
+        public HomeService(IGenericRepository<Home> repo, IHomeRepository homeRepository) : base(repo)
         {
-            _repo = homerepo;
+            this.homeRepository = homeRepository;
         }
 
         public async Task<Home> GetOneHome()
         {
-            return await _repo.GetOneObject();
+            return await homeRepository.GetOneObject();
         }
     }
 }

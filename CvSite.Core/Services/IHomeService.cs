@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CvSite.Core.Services
 {
-    public interface IHomeService
+    public interface IHomeService : IGenericService<Home>
     {
         Task<Home> GetOneHome();
     }

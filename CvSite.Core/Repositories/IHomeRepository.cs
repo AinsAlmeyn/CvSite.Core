@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace CvSite.Core.Repositories
 {
-    public interface IHomeRepository
+    public interface IHomeRepository : IGenericRepository<Home>
     {
         Task<Home> GetOneObject();
     }

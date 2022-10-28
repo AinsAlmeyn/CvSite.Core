@@ -1,0 +1,17 @@
+F:\C#PROJECT\CvSite.Core\CvSite.Services\bin\Debug\net6.0\CvSite.Services.deps.json
+F:\C#PROJECT\CvSite.Core\CvSite.Services\bin\Debug\net6.0\CvSite.Services.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Services\bin\Debug\net6.0\CvSite.Services.pdb
+F:\C#PROJECT\CvSite.Core\CvSite.Services\bin\Debug\net6.0\CvSite.Core.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Services\bin\Debug\net6.0\CvSite.DataAccess.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Services\bin\Debug\net6.0\CvSite.DataAccess.pdb
+F:\C#PROJECT\CvSite.Core\CvSite.Services\bin\Debug\net6.0\CvSite.Core.pdb
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\CvSite.Services.csproj.AssemblyReference.cache
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\CvSite.Services.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\CvSite.Services.AssemblyInfoInputs.cache
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\CvSite.Services.AssemblyInfo.cs
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\CvSite.Services.csproj.CoreCompileInputs.cache
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\CvSite.Services.csproj.CopyComplete
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\CvSite.Services.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\refint\CvSite.Services.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\CvSite.Services.pdb
+F:\C#PROJECT\CvSite.Core\CvSite.Services\obj\Debug\net6.0\ref\CvSite.Services.dll

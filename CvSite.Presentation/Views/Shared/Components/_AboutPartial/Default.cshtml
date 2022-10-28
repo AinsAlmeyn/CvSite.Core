@@ -1,0 +1,31 @@
+﻿@model NewAbout
+
+@{
+    ViewData["Title"] = "Default";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+    <div id="about" class="paddsection">
+      <div class="container">
+        <div class="row justify-content-between">
+            
+          <div class="col-lg-4 ">
+            <div class="div-img-bg">
+              <div class="about-img">
+                <img src="@Model.Photo" class="img-responsive" alt="me">
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-7">
+            <div class="about-descr">
+
+              <p class="p-heading">@Model.Title</p>
+              <p class="separator">@Model.Description</p>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>

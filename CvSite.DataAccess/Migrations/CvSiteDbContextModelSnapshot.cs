@@ -21,28 +21,6 @@ namespace CvSite.DataAccess.Migrations
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
 
-            modelBuilder.Entity("CvSite.Core.Entities.About", b =>
-                {
-                    b.Property<string>("Description")
-                        .IsRequired()
-                        .HasMaxLength(60)
-                        .HasColumnType("nvarchar(60)");
-
-                    b.Property<int>("Id")
-                        .HasColumnType("int");
-
-                    b.Property<string>("Photo")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("Title")
-                        .IsRequired()
-                        .HasMaxLength(600)
-                        .HasColumnType("nvarchar(600)");
-
-                    b.ToTable("Abouts");
-                });
-
             modelBuilder.Entity("CvSite.Core.Entities.AboutSlider", b =>
                 {
                     b.Property<int>("SliderId")
@@ -181,6 +159,33 @@ namespace CvSite.DataAccess.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Messages");
+                });
+
+            modelBuilder.Entity("CvSite.Core.Entities.NewAbout", b =>
+                {
+                    b.Property<int>("NewId")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("NewId"), 1L, 1);
+
+                    b.Property<string>("Description")
+                        .IsRequired()
+                        .HasMaxLength(600)
+                        .HasColumnType("nvarchar(600)");
+
+                    b.Property<string>("Photo")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasMaxLength(100)
+                        .HasColumnType("nvarchar(100)");
+
+                    b.HasKey("NewId");
+
+                    b.ToTable("NewAbouts");
                 });
 
             modelBuilder.Entity("CvSite.Core.Entities.Portfolio", b =>

@@ -11,15 +11,14 @@ namespace CvSite.DataAccess.RepoCon
 {
     public class HomeRepository : GenericRepository<Home>, IHomeRepository
     {
-        private readonly CvSiteDbContext _context;
         public HomeRepository(CvSiteDbContext context) : base(context)
         {
-            _context = context;
+
         }
 
         public async Task<Home> GetOneObject()
         {
-            return await _context.Homes.FirstOrDefaultAsync(x => x.Id == 1);
+            return await _context.Homes.OrderByDescending(x => x.Id).FirstOrDefaultAsync();
         }
     }
 }
