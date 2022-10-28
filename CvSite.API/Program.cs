@@ -37,6 +37,8 @@ builder.Services.AddScoped(typeof(IAboutSliderRepository), typeof(AboutSliderRep
 builder.Services.AddScoped(typeof(IAboutSliderService), typeof(AboutSliderService));
 builder.Services.AddScoped(typeof(IPortfolioRepository), typeof(PortfolioRepository));
 builder.Services.AddScoped(typeof(IPortfolioService), typeof(PortfolioService));
+builder.Services.AddScoped(typeof(IGetInTouchRepositroy), typeof(GetInTouchRepository));
+builder.Services.AddScoped(typeof(IGetInTouchService), typeof(GetInTouchService));
 
 #endregion
 

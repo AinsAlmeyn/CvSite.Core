@@ -138,20 +138,8 @@
         <div class="contact-block1">
           <div class="row">
 
-            <div class="col-lg-6">
-              <div class="contact-contact">
-
-                <h2 class="mb-30">GET IN TOUCH</h2>
-
-                <ul class="contact-details">
-                  <li><span>23 Main, Street</span></li>
-                  <li><span>New York, United States</span></li>
-                  <li><span>+88 01912704287</span></li>
-                  <li><span>example@example.com</span></li>
-                </ul>
-
-              </div>
-            </div>
+            @*@await Component.InvokeAsync(nameof(Views_Shared_Components__GetInTouchPartial_Default))*@
+            @await Component.InvokeAsync("_GetInTouchPartial")
 
             <div class="col-lg-6">
               <form action="forms/contact.php" method="post" role="form" class="php-email-form">
