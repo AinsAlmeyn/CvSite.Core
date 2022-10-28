@@ -40,6 +40,7 @@ builder.Services.AddScoped(typeof(IPortfolioService), typeof(PortfolioService));
 
 #endregion
 
+
 var app = builder.Build();
 
 if (app.Environment.IsDevelopment())
