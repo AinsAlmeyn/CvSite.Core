@@ -15,8 +15,56 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = F:\C#PROJECT\CvSite.Core\CvSite.Presentation
 build_property._RazorSourceGeneratorDebug = 
 
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AboutSlider/AboutSliderAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRTbGlkZXJcQWJvdXRTbGlkZXJBZGQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AboutSlider/AboutSliderEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRTbGlkZXJcQWJvdXRTbGlkZXJFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AboutSlider/AboutSliderInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRTbGlkZXJcQWJvdXRTbGlkZXJJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AdminLayoutPartials/CssPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsc1xDc3NQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AdminLayoutPartials/FooterPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsc1xGb290ZXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AdminLayoutPartials/NavbarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsc1xOYXZiYXJQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AdminLayoutPartials/ScriptPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsc1xTY3JpcHRQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AdminLayoutPartials/SidebarPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsc1xTaWRlYmFyUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Home/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/NewAbout/NewAboutEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3QWJvdXRcTmV3QWJvdXRFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/NewAbout/NewAboutInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3QWJvdXRcTmV3QWJvdXRJbmZvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/NewHome/NewHomeEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3SG9tZVxOZXdIb21lRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/NewHome/NewHomeInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3SG9tZVxOZXdIb21lSW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Shared/Components/_AboutPartial/Default.cshtml]
@@ -45,6 +93,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Shared/_AdminLayout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9BZG1pbkxheW91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Shared/_Layout.cshtml]

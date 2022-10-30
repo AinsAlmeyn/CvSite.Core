@@ -1,0 +1,25 @@
+﻿@model NewAbout
+@{
+    ViewData["Title"] = "NewAboutEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+@{
+    ViewData["Title"] = "NewHomeEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    @Html.HiddenFor(x => x.NewId)
+    <label>Fotograf</label>
+    @Html.TextBoxFor(x => x.Photo, new {@class = "form-control"})
+    <br />
+    <label>Baslik</label>
+    @Html.TextBoxFor(x => x.Title, new {@class = "form-control"})
+    <br />
+    <label>Aciklama</label>
+    @Html.TextBoxFor(x => x.Description, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-outline-info">Guncelle</button>
+</form>

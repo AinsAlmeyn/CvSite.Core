@@ -1,0 +1,22 @@
+﻿@model Home
+@{
+    ViewData["Title"] = "NewHomeEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    @Html.HiddenFor(x => x.Id)
+    <label>Photo</label>
+    @Html.TextBoxFor(x => x.Photo, new {@class = "form-control"})
+    <br />
+    <label>Jobs</label>
+    @Html.TextBoxFor(x => x.Jobs, new {@class = "form-control"})
+    <br />
+    <label>Id</label>
+    @Html.TextBoxFor(x => x.LinkInstagram, new {@class = "form-control"})
+    <br />
+    <label>Id</label>
+    @Html.TextBoxFor(x => x.LinkLinkedin, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-outline-info">Guncelle</button>
+</form>

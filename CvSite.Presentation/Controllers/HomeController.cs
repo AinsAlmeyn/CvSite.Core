@@ -9,8 +9,7 @@ namespace CvSite.Presentation.Controllers;
 
 public class HomeController : Controller
 {
-    string base_uri = "https://localhost:7154/";
-    [HttpGet]
+
     public async Task<IActionResult> HomePage()
     {
         return View();

@@ -1,0 +1,19 @@
+﻿@model AboutSlider
+@{
+    ViewData["Title"] = "AboutSliderEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    @Html.HiddenFor(x => x.SliderId)
+    <label>Slider Icon</label>
+    @Html.TextBoxFor(x => x.SliderIcon, new {@class = "form-control"})
+    <br />
+    <label>Slider Basligi</label>
+    @Html.TextBoxFor(x => x.SliderTitle, new {@class = "form-control"})
+    <br />
+    <label>Slider Kisa Aciklamasi</label>
+    @Html.TextBoxFor(x => x.SliderShortDescription, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-outline-info">Guncelle</button>
+</form>

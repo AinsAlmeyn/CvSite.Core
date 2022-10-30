@@ -10,5 +10,6 @@ public interface IGenericService<T> where T : class
     void UpdateObject(T entity);
     Task<IEnumerable<T>> GetAllObject();
     IQueryable<T> GetAllObjectWithQuery(Expression<Func<T,bool>> query);
+    Task<T> FindObject(int id);
     //List<T> ReturnAllValuesService();
 }

@@ -47,4 +47,8 @@ public class GenericRepository<T> : IGenericRepository<T> where T : class
         return _dbSet.AsNoTracking().AsQueryable();
     }
 
+    public async Task<T> FindObject(int id)
+    {
+        return await _dbSet.FindAsync(id);
+    }
 }

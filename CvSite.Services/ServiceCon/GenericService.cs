@@ -42,4 +42,8 @@ public class GenericService<T> : IGenericService<T> where T: class
         return _repo.GetAllObjectWithQuery(query);
     }
 
+    public Task<T> FindObject(int id)
+    {
+        return _repo.FindObject(id);
+    }
 }

@@ -12,5 +12,6 @@ public interface IGenericRepository<T> where  T : class
     Task<IEnumerable<T>> GetAllObject();
     IQueryable<T> GetAllObjectWithQuery(Expression<Func<T,bool>> query);
 
+    Task<T> FindObject(int id);
     //List<T> ReturnAllValues();
 }

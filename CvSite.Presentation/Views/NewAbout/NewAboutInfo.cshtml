@@ -1,0 +1,48 @@
+﻿@model NewAbout
+@{
+    ViewData["Title"] = "NewAboutInfo";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="table-responsive pt-3">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>
+                            #
+                          </th>
+                          <th>
+                            Ana Resim
+                          </th>
+                          <th>
+                            Baslik
+                          </th>
+                          <th>
+                            Aciklama
+                          </th>
+                          <th>
+                            Guncelle
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="table-success">
+                          <td>
+                    @Model.NewId
+                          </td>
+                          <td>
+                    @Model.Photo
+                          </td>
+                          <td>
+                    @Model.Title
+                          </td>
+                          <td>
+                    @Model.Description
+                          </td>
+                    <td><a href="/NewAbout/NewAboutEdit/@Model.NewId" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br />
+                  </div>
