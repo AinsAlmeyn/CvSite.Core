@@ -1,0 +1,23 @@
+﻿@model GetInTouch
+
+@{
+    ViewData["Title"] = "GetInTouchEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    @Html.HiddenFor(x => x.Id)
+    <label>District</label>
+    @Html.TextBoxFor(x => x.District, new {@class = "form-control"})
+    <br />
+    <label>CityCountry</label>
+    @Html.TextBoxFor(x => x.CityCountry, new {@class = "form-control"})
+    <br />
+    <label>Email</label>
+    @Html.TextBoxFor(x => x.Email, new {@class = "form-control"})
+    <br />
+    <label>PhoneNumber</label>
+    @Html.TextBoxFor(x => x.PhoneNumber, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-outline-info">Guncelle</button>
+</form>

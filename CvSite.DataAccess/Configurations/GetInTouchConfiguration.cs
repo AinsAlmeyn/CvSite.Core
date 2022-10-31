@@ -8,6 +8,6 @@ public class GetInTouchConfiguration : IEntityTypeConfiguration<GetInTouch>
 {
     public void Configure(EntityTypeBuilder<GetInTouch> builder)
     {
-        builder.HasNoKey();
+        builder.HasKey(x => x.Id);
     }
 }

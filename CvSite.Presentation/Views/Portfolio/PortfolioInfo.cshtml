@@ -1,0 +1,57 @@
+﻿@model IEnumerable<Portfolio>
+@{
+	ViewData["Title"] = "PortfolioInfo";
+	Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="table-responsive pt-3">
+					<table class="table table-bordered">
+					  <thead>
+						<tr>
+						  <th>
+							#
+						  </th>
+						  <th>
+							Image
+						  </th>
+						  <th>
+							Title
+						  </th>
+						  <th>
+							Description
+						  </th>
+						  <th>
+							Guncelle
+						  </th>
+						</tr>
+					  </thead>
+					  <tbody>
+			@foreach (var item in Model)
+			{
+
+								<tr class="table-success">
+										<td>
+						@item.Id
+									  </td>
+								  <td>
+						@item.Image
+								  </td>
+								  <td>
+						@item.Title
+								  </td>
+								  <td>
+						@item.Description
+								  </td>
+								  <td>
+									<td><a href="/Portfolio/PortfolioDelete/@item.Id" class="btn btn-outline-success">Sil</a></td>
+									<td><a href="/Portfolio/PortfolioEdit/@item.Id" class="btn btn-outline-success">Güncelle</a></td>
+								</tr>
+			}
+
+					  </tbody>
+					</table>
+					<br />
+					<td><a href="/Portfolio/PortfolioAdd/" class="btn btn-outline-success">Ekle</a></td>
+					<br />
+				  </div>

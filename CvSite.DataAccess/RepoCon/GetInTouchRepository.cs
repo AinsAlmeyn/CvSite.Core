@@ -12,6 +12,6 @@ public class GetInTouchRepository : GenericRepository<GetInTouch>, IGetInTouchRe
     }
     public async Task<GetInTouch> GetOneObject()
     {
-        return await _context.GetInTouches.FirstOrDefaultAsync();
+        return await _context.GetInTouches.OrderByDescending(x => x.Id).FirstOrDefaultAsync();
     }
 }

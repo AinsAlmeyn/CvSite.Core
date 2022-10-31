@@ -47,6 +47,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsc1xTaWRlYmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/GetInTouch/GetInTouchEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0SW5Ub3VjaFxHZXRJblRvdWNoRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/GetInTouch/GetInTouchInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0SW5Ub3VjaFxHZXRJblRvdWNoSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Home/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUGFnZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -65,6 +73,18 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/NewHome/NewHomeInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTmV3SG9tZVxOZXdIb21lSW5mby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Portfolio/PortfolioAdd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvXFBvcnRmb2xpb0FkZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Portfolio/PortfolioEdit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvXFBvcnRmb2xpb0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Portfolio/PortfolioInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvXFBvcnRmb2xpb0luZm8uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Shared/Components/_AboutPartial/Default.cshtml]

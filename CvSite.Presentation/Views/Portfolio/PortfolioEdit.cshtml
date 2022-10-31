@@ -1,0 +1,19 @@
+﻿@model Portfolio
+@{
+    ViewData["Title"] = "PortfolioEdit";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<form method="post">
+    @Html.HiddenFor(x => x.Id)
+    <label>Image</label>
+    @Html.TextBoxFor(x => x.Image, new {@class = "form-control"})
+    <br />
+    <label>Title</label>
+    @Html.TextBoxFor(x => x.Title, new {@class = "form-control"})
+    <br />
+    <label>Description</label>
+    @Html.TextBoxFor(x => x.Description, new {@class = "form-control"})
+    <br />
+    <button class="btn btn-outline-info">Guncelle</button>
+</form>

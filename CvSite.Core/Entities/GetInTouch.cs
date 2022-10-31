@@ -4,6 +4,9 @@ namespace CvSite.Core.Entities;
 
 public class GetInTouch
 {
+    [JsonPropertyName(nameof(Id))]
+    public int Id { get; set; }
+
     [JsonPropertyName(nameof(District))]
     public string? District { get; set; }
 

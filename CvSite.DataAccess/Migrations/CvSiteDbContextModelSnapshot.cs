@@ -96,6 +96,12 @@ namespace CvSite.DataAccess.Migrations
 
             modelBuilder.Entity("CvSite.Core.Entities.GetInTouch", b =>
                 {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
                     b.Property<string>("CityCountry")
                         .HasColumnType("nvarchar(max)");
 
@@ -107,6 +113,8 @@ namespace CvSite.DataAccess.Migrations
 
                     b.Property<string>("PhoneNumber")
                         .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
 
                     b.ToTable("GetInTouches");
                 });

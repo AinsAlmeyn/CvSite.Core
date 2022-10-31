@@ -1,0 +1,29 @@
+﻿@model Portfolio
+
+@{
+    ViewData["Title"] = "PortfolioAdd";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Yeni Portfolio Girişi</h4>
+                  <form class="forms-sample" method="post">
+                    <div class="form-group">
+                      <label for="exampleInputName1">Image</label>
+                      <input type="text" class="form-control" id="exampleInputName1" placeholder="Image" asp-for="Image">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputName1">Title</label>
+                      <input type="text" class="form-control" id="exampleInputNsame1" placeholder="Title" asp-for="Title">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail3">Açıklama</label>
+                      <textarea class="form-control" id="exampleTextarea1" asp-for="Description" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-info">Kaydet</button>
+                  </form>
+                </div>
+              </div>
+            </div>

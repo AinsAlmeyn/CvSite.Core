@@ -1,0 +1,54 @@
+﻿@model GetInTouch
+@{
+    ViewData["Title"] = "GetInTouchInfo";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="table-responsive pt-3">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>
+                            #
+                          </th>
+                          <th>
+                            District
+                          </th>
+                          <th>
+                            City / Country
+                          </th>
+                          <th>
+                            Phone Number
+                          </th>
+                          <th>
+                            E-Mail
+                          </th>
+                            <th>
+                            Guncelle
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <tr class="table-success">
+                            <td>
+                    @Model.Id
+                          </td>
+                          <td>
+                    @Model.District
+                          </td>
+                          <td>
+                    @Model.CityCountry
+                          </td>
+                          <td>
+                    @Model.PhoneNumber
+                          </td>
+                          <td>
+                    @Model.Email
+                          </td>
+                    <td><a href="/GetInTouch/GetInTouchEdit/@Model.Id" class="btn btn-outline-success">Güncelle</a></td>
+                        </tr>
+                      </tbody>
+                    </table>
+                    <br />
+                  </div>
