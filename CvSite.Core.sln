@@ -1,14 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvSite.Core", "CvSite.Core\CvSite.Core.csproj", "{6DA865EE-B968-497A-B003-189B28626886}"
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CvSite.Core", "CvSite.Core\CvSite.Core.csproj", "{6DA865EE-B968-497A-B003-189B28626886}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvSite.DataAccess", "CvSite.DataAccess\CvSite.DataAccess.csproj", "{32D55992-6E25-4719-96B7-4ED279D55995}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CvSite.DataAccess", "CvSite.DataAccess\CvSite.DataAccess.csproj", "{32D55992-6E25-4719-96B7-4ED279D55995}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvSite.Services", "CvSite.Services\CvSite.Services.csproj", "{C1809F21-383D-4E15-B05F-4503EFCD46EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CvSite.Services", "CvSite.Services\CvSite.Services.csproj", "{C1809F21-383D-4E15-B05F-4503EFCD46EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvSite.API", "CvSite.API\CvSite.API.csproj", "{893CC923-149C-4E71-909B-B552784B7D44}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CvSite.API", "CvSite.API\CvSite.API.csproj", "{893CC923-149C-4E71-909B-B552784B7D44}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CvSite.Presentation", "CvSite.Presentation\CvSite.Presentation.csproj", "{89AA3C0C-0496-4DD0-B66E-586E41E89B21}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CvSite.Presentation", "CvSite.Presentation\CvSite.Presentation.csproj", "{89AA3C0C-0496-4DD0-B66E-586E41E89B21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,5 +39,11 @@ Global
 		{89AA3C0C-0496-4DD0-B66E-586E41E89B21}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{89AA3C0C-0496-4DD0-B66E-586E41E89B21}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{89AA3C0C-0496-4DD0-B66E-586E41E89B21}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9A13BBB-087F-4F7B-9635-0D62E1B9F1A5}
 	EndGlobalSection
 EndGlobal

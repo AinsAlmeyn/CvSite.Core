@@ -1,0 +1,61 @@
+﻿@model IEnumerable<Message>
+
+@{
+    ViewData["Title"] = "MessageInfo";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+
+<div class="table-responsive pt-3">
+                    <table class="table table-bordered">
+                      <thead>
+                        <tr>
+                          <th>
+                            #
+                          </th>
+                          <th>
+                            Name
+                          </th>
+                          <th>
+                            Gmail
+                          </th>
+                          <th>
+                            Subject
+                          </th>
+                          <th>
+                            FormMessage
+                          </th>
+                          <th>
+                            Delete
+                          </th>
+                        </tr>
+                      </thead>
+                      <tbody>
+            @foreach (var item in Model)
+            {
+
+                                <tr class="table-success">
+                                  <td>
+                        @item.Id
+                                  </td>
+                                  <td>
+                        @item.Name
+                                  </td>
+                                  <td>
+                        @item.Surname
+                                  </td>
+                                  <td>
+                        @item.Subject
+                                  </td>
+                                      <td>
+                        @item.FormMessage
+                                      </td>
+                                  <td>
+                                <td><a href="/Message/MessageDelete/@item.Id" class="btn btn-outline-success">Sil</a></td>
+                                </tr>
+            }
+
+                      </tbody>
+                    </table>
+                    <br />
+                  </div>

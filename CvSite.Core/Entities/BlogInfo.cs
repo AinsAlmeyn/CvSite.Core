@@ -15,4 +15,13 @@ public class BlogInfo
 
     [JsonPropertyName(nameof(Description))]
     public string? Description { get; set; }
+
+    [JsonPropertyName(nameof(MainImage))]
+    public string? MainImage { get; set; }
+
+    [JsonPropertyName(nameof(CreateDate))]
+    public DateTime? CreateDate { get; set; }
+
+    [JsonPropertyName(nameof(Author))]
+    public string? Author { get; set; }
 }

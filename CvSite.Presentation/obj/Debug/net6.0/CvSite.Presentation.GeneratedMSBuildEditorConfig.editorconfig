@@ -55,8 +55,16 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0SW5Ub3VjaFxHZXRJblRvdWNoSW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/HomeMessagePartial/MessagePartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZU1lc3NhZ2VQYXJ0aWFsXE1lc3NhZ2VQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Home/HomePage.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxIb21lUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Message/MessageInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWVzc2FnZVxNZXNzYWdlSW5mby5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/NewAbout/NewAboutEdit.cshtml]

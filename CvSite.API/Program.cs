@@ -39,6 +39,8 @@ builder.Services.AddScoped(typeof(IPortfolioRepository), typeof(PortfolioReposit
 builder.Services.AddScoped(typeof(IPortfolioService), typeof(PortfolioService));
 builder.Services.AddScoped(typeof(IGetInTouchRepositroy), typeof(GetInTouchRepository));
 builder.Services.AddScoped(typeof(IGetInTouchService), typeof(GetInTouchService));
+builder.Services.AddScoped(typeof(IMessageRepository), typeof(MessageRepository));
+builder.Services.AddScoped(typeof(IMessageService), typeof(MessageService));
 
 #endregion
 
