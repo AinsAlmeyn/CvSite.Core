@@ -1,0 +1,8 @@
+1 - Logger eklenip try catch methodlari ile hatalar yakalanacak.
+	1. Derece kolay
+2 - Fluent validation kullanilarak datalarin gelis gidisleri check edilecek.
+	2. Derece Kolay
+3 - Dto nesneleri araciligiyla request ve response nesneleri olusturmak.
+	3. Derece Arastirma gerek Orta
+4 - Tum formlar, butonlar gorsel acidan elden gecirilecek.
+	4. Derece Kolay

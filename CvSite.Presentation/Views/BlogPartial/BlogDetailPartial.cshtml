@@ -1,0 +1,33 @@
+﻿@model BlogInfo
+
+<div class="main-content paddsection">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-md-8 col-md-offset-2">
+            <div class="row">
+              <div class="container-main single-main">
+                <div class="col-md-12">
+                  <div class="block-main mb-30">
+                    <img src="@Model.MainImage" class="img-responsive" alt="reviews2">
+                    <div class="content-main single-post padDiv">
+                      <div class="journal-txt">
+                        <h4><a href="#">@Model.Title</a></h4>
+                      </div>
+                      <div class="post-meta">
+                        <ul class="list-unstyled mb-0">
+                          <li class="author">by:<a href="#">@Model.Author</a></li>
+                          <li class="date">date:<a href="#">@Model.CreateDate</a></li>
+                                            @*                          <li class="commont"><i class="ion-ios-heart-outline"></i><a href="#">3 Comments</a></li>*@
+                        </ul>
+                      </div>
+                      <p class="mb-30">@Model.Content</p>
+                                    @*<blockquote>If you are still looking for that one person who will change your life, take a look in the mirror.</blockquote>*@
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>

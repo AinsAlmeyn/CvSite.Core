@@ -47,6 +47,14 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsc1xTaWRlYmFyUGFydGlhbC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/BlogDetail/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ0RldGFpbFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/BlogPartial/BlogDetailPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQmxvZ1BhcnRpYWxcQmxvZ0RldGFpbFBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/GetInTouch/GetInTouchEdit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR2V0SW5Ub3VjaFxHZXRJblRvdWNoRWRpdC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

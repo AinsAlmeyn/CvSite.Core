@@ -24,4 +24,7 @@ public class BlogInfo
 
     [JsonPropertyName(nameof(Author))]
     public string? Author { get; set; }
+
+    [JsonPropertyName(nameof(Content))]
+    public string? Content { get; set; }
 }
