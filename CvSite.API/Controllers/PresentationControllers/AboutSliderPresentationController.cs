@@ -10,16 +10,27 @@ namespace CvSite.API.Controllers.PresentationControllers
     public class AboutSliderPresentationController : ControllerBase
     {
         private readonly IAboutSliderService _service;
-        public AboutSliderPresentationController(IAboutSliderService service)
+        private readonly ILogger logger;
+        public AboutSliderPresentationController(IAboutSliderService service, ILogger logger)
         {
             _service = service;
+            this.logger = logger;
         }
 
         [HttpGet]
         public async Task<IActionResult> ListAboutSlider()
         {
-            var value = await _service.GetAllObject();
-            return Ok(value);
+            try
+            {
+                var value = await _service.GetAllObject();
+                logger.LogInformation("AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.");
+                return Ok(value);
+            }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
         }
     }
 }

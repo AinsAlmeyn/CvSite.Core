@@ -12,26 +12,55 @@ namespace CvSite.API.Controllers.AdminControllers
     public class NewAboutController : ControllerBase
     {
         private readonly INewAboutService service;
-        public NewAboutController(INewAboutService service)
+        private readonly ILogger logger;
+
+        public NewAboutController(INewAboutService service, ILogger logger)
         {
             this.service = service;
+            this.logger = logger;
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var article = await service.GetObjectByIdAsync(id);
-            return Ok(article);
+            try
+            {
+                if (id.ToString() == null)
+                {
+                    logger.LogWarning($"NewAbout/GetById icin id degeri null dondu");
+                    return BadRequest();
+                }
+                else
+                {
+                    var article = await service.GetObjectByIdAsync(id);
+                    logger.LogInformation($"NewAbout/GetById icin nesne basarili sekilde donduruldu. Response = {article.NewId}, {article.Title}");
+                    return Ok(article);
+                }
+            }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
         }
 
         [HttpPut]
         public IActionResult NewAboutUpdate(NewAbout newAbout)
         {
-            if (newAbout== null) return BadRequest();
-            else
+            try
+             {
+                if (newAbout == null) { logger.LogWarning($"NewAbout/NewAboutUpdate icin newAbout nesnesi null geldi"); return BadRequest(); }
+                else
+                {
+                    service.UpdateObject(newAbout);
+                    logger.LogInformation($"NewAbout/NewAboutUpdate icin update islemi gerceklesti. Response = {newAbout.NewId}");
+                    return Ok();
+                }
+            }
+            catch (Exception e)
             {
-                service.UpdateObject(newAbout);
-                return Ok();
+                logger.LogError(e.Message);
+                return BadRequest();
             }
         }
     }

@@ -6,9 +6,22 @@ using CvSite.DataAccess;
 using CvSite.DataAccess.RepoCon;
 using CvSite.Services.ServiceCon;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Logging;
 
 var builder = WebApplication.CreateBuilder(args);
 
+
+string root = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) + "\\Log\\";
+builder.Services.AddLogging(loggingBuilder =>
+{
+    loggingBuilder.AddFile(root + @"\CvSite_{0:yyyy}-{0:MM}-{0:dd}.log", fileLoggerOpts =>
+    {
+        fileLoggerOpts.FormatLogFileName = fName =>
+        {
+            return String.Format(fName, DateTime.UtcNow);
+        };
+    });
+});
 
 builder.Services.AddControllers();
 

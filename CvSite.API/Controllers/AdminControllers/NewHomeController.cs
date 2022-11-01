@@ -10,27 +10,56 @@ namespace CvSite.API.Controllers.AdminControllers
     public class NewHomeController : ControllerBase
     {
         private readonly IHomeService homeService;
-        public NewHomeController(IHomeService homeService)
+        private readonly ILogger logger;
+        public NewHomeController(IHomeService homeService, ILogger logger)
         {
             this.homeService = homeService;
+            this.logger = logger;
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var article = await homeService.GetObjectByIdAsync(id);
-            return Ok(article);
+            try
+            {
+                if (string.IsNullOrEmpty(id.ToString()))
+                {
+                    logger.LogWarning("NewHome/GetById icin id nesnesi null geldi");
+                    return BadRequest();
+                }
+                else
+                {
+                    var article = await homeService.GetObjectByIdAsync(id);
+                    logger.LogInformation($"NewHome/GetById icin islem basarili. Response = {article.Id}");
+                    return Ok(article);
+                }
+            }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
         }
 
         [HttpPut]
         public IActionResult NewHomeUpdate(Home home)
         {
-            if (home == null) return BadRequest();
-            else
+            try
             {
-                homeService.UpdateObject(home);
-                return Ok();
+                if (home == null) {logger.LogWarning("NewHome/NewHomeUpdate icin home nesnesi null geldi.") ; return BadRequest(); }
+                else
+                {
+                    homeService.UpdateObject(home);
+                    logger.LogInformation($"NewHome/NewHomeUpdate icin home nesnesi guncellendi. Response = {home.Id}");
+                    return Ok();
+                }
             }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
+            
         }
     }
 }

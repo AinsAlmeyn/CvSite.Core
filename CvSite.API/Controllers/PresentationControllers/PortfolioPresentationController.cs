@@ -10,16 +10,27 @@ namespace CvSite.API.Controllers.PresentationControllers
     {
 
         private readonly IPortfolioService _portfolioService;
-        public PortfolioPresentationController(IPortfolioService portfolioService)
+        private readonly ILogger logger;
+        public PortfolioPresentationController(IPortfolioService portfolioService, ILogger logger)
         {
             _portfolioService = portfolioService;
+            this.logger = logger;
         }
 
         [HttpGet]
         public async Task<IActionResult> PortfolioList()
         {
-            var value = await _portfolioService.GetAllObject();
-            return Ok(value);
+            try
+            {
+                var value = await _portfolioService.GetAllObject();
+                logger.LogInformation("PortfolioPresentation/PortfolioList datalari basariyla dondurdu.");
+                return Ok(value);
+            }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
         }
 
     }

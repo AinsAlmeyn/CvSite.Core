@@ -10,16 +10,27 @@ namespace CvSite.API.Controllers.PresentationControllers
     public class AboutPresentationController : ControllerBase
     {
         private readonly INewAboutService aboutService;
-        public AboutPresentationController(INewAboutService aboutService)
+        private readonly ILogger logger;
+        public AboutPresentationController(INewAboutService aboutService, ILogger logger)
         {
             this.aboutService = aboutService;
+            this.logger = logger;
         }
 
         [HttpGet]
         public async Task<IActionResult> NewAbout()
         {
-            var value = await aboutService.GetOneAbout();
-            return Ok(value);
+            try
+            {
+                var value = await aboutService.GetOneAbout();
+                logger.LogInformation("AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.");
+                return Ok(value);
+            }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
         }
     }
 }

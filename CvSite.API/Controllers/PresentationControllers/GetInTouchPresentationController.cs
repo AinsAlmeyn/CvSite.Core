@@ -10,16 +10,27 @@ namespace CvSite.API.Controllers.PresentationControllers
     public class GetInTouchPresentationController : ControllerBase
     {
         private readonly IGetInTouchService getInTouchService;
-        public GetInTouchPresentationController(IGetInTouchService getInTouchService)
+        private readonly ILogger logger;
+        public GetInTouchPresentationController(IGetInTouchService getInTouchService, ILogger logger)
         {
             this.getInTouchService = getInTouchService;
+            this.logger = logger;
         }
 
         [HttpGet]
         public async Task<IActionResult> OneTouch()
         {
-            var value = await getInTouchService.GetOneTouch();
-            return Ok(value);
+            try
+            {
+                var value = await getInTouchService.GetOneTouch();
+                logger.LogInformation("GetInTouchPresentation/OneTouch datalari basariyla dondurdu.");
+                return Ok(value);
+            }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
         }
     }
 }

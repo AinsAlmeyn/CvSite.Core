@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CvSite.Core.Entities;
 using CvSite.Core.Services;
+using CvSite.Services.ServiceCon;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.ActionConstraints;
@@ -15,16 +16,27 @@ namespace CvSite.API.Controllers.PresentationControllers
     public class HomePresentationController : ControllerBase
     {
         private readonly IHomeService _homeService;
-        public HomePresentationController(IHomeService homeService)
+        private readonly ILogger logger;
+        public HomePresentationController(IHomeService homeService, ILogger logger)
         {
             _homeService = homeService;
+            this.logger = logger;
         }
 
         [HttpGet]
         public async Task<IActionResult> Home()
         {
-            var value = await _homeService.GetOneHome();
-            return Ok(value);
+            try
+            {
+                var value = await _homeService.GetOneHome();
+                logger.LogInformation("HomePresentation/Home datalari basariyla dondurdu.");
+                return Ok(value);
+            }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
         }
     }
 }

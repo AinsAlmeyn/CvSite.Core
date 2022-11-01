@@ -9,16 +9,27 @@ namespace CvSite.API.Controllers.PresentationControllers
     public class BlogInfoPresentationController : ControllerBase
     {
         private readonly IBlogInfoService blogInfoService;
-        public BlogInfoPresentationController(IBlogInfoService blogInfoService)
+        private readonly ILogger logger;
+        public BlogInfoPresentationController(IBlogInfoService blogInfoService, ILogger logger)
         {
+            this.logger = logger;
             this.blogInfoService = blogInfoService;
         }
         
         [HttpGet]
         public async Task<IActionResult> BlogInfo()
         {
-            var values = await blogInfoService.GetAllObject();
-            return Ok(values);
+            try
+            {
+                var values = await blogInfoService.GetAllObject();
+                logger.LogInformation("BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.");
+                return Ok(values);
+            }
+            catch (Exception e)
+            {
+                logger.LogError(e.Message);
+                return BadRequest();
+            }
         }
     }
 }

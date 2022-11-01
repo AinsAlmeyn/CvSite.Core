@@ -10,16 +10,35 @@ namespace CvSite.API.Controllers.AdminControllers
     public class BlogDetailController : ControllerBase
     {
         private readonly IBlogInfoService _blogInfoService;
-        public BlogDetailController(IBlogInfoService blogInfoService)
+        private readonly ILogger logger;
+        public BlogDetailController(IBlogInfoService blogInfoService, ILogger logger)
         {
             _blogInfoService = blogInfoService;
+            this.logger = logger;
         }
 
         [HttpGet("{id}")]
         public async Task<IActionResult> GetById(int id)
         {
-            var article = await _blogInfoService.GetObjectByIdAsync(id);
-            return Ok(article);
+            try
+            {
+                if (id.ToString() == null)
+                {
+                    logger.LogWarning($"BlogDetail/GetById icin id degeri null geldi");
+                    return BadRequest();
+                }
+                else
+                {
+                    var article = await _blogInfoService.GetObjectByIdAsync(id);
+                    logger.LogInformation($"BlogDetail/GetById icin nesne istegi basarili. Response = {article.BlogInfoId},{article.Title}");
+                    return Ok(article);
+                }
+            }
+            catch (Exception e)
+            {
+                logger.LogError($"{e.Message}");
+                return BadRequest();
+            }
         }
     }
 }

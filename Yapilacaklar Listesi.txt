@@ -6,3 +6,5 @@
 	3. Derece Arastirma gerek Orta
 4 - Tum formlar, butonlar gorsel acidan elden gecirilecek.
 	4. Derece Kolay
+5 - Tum Yonerge butonlari Gidecekleri endpointlere gore ayarlanacak.
+	5. Derece Kolay
