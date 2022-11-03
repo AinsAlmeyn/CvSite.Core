@@ -13,7 +13,7 @@ namespace CvSite.API.Controllers.AdminControllers
     {
         private readonly IMessageService _service;
         private readonly ILogger logger;
-        public MessasgeController(IMessageService service, ILogger logger)
+        public MessasgeController(IMessageService service, ILogger<Message> logger)
         {
             this.logger = logger;
             _service = service;

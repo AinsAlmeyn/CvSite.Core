@@ -1,4 +1,5 @@
-﻿using CvSite.Core.Services;
+﻿using CvSite.Core.Entities;
+using CvSite.Core.Services;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
@@ -10,7 +11,7 @@ namespace CvSite.API.Controllers.PresentationControllers
     {
         private readonly IBlogInfoService blogInfoService;
         private readonly ILogger logger;
-        public BlogInfoPresentationController(IBlogInfoService blogInfoService, ILogger logger)
+        public BlogInfoPresentationController(IBlogInfoService blogInfoService, ILogger<BlogInfo> logger)
         {
             this.logger = logger;
             this.blogInfoService = blogInfoService;

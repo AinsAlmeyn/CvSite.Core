@@ -1,4 +1,5 @@
-﻿using CvSite.Core.Services;
+﻿using CvSite.Core.Entities;
+using CvSite.Core.Services;
 using CvSite.Services.ServiceCon;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +12,7 @@ namespace CvSite.API.Controllers.PresentationControllers
     {
         private readonly IAboutSliderService _service;
         private readonly ILogger logger;
-        public AboutSliderPresentationController(IAboutSliderService service, ILogger logger)
+        public AboutSliderPresentationController(IAboutSliderService service, ILogger<AboutSlider> logger)
         {
             _service = service;
             this.logger = logger;

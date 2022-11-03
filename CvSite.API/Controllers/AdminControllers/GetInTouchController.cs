@@ -12,7 +12,7 @@ namespace CvSite.API.Controllers.AdminControllers
     {
         private readonly IGetInTouchService _service;
         private readonly ILogger _logger;
-        public GetInTouchController(IGetInTouchService service, ILogger logger)
+        public GetInTouchController(IGetInTouchService service, ILogger<GetInTouch> logger)
         {
             _service = service;
             _logger = logger;

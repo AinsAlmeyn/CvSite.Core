@@ -13,14 +13,17 @@
                     <div class="form-group">
                       <label for="exampleInputName1">Image</label>
                       <input type="text" class="form-control" id="exampleInputName1" placeholder="Image" asp-for="Image">
+                      <span asp-validation-for="Image" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputName1">Title</label>
                       <input type="text" class="form-control" id="exampleInputNsame1" placeholder="Title" asp-for="Title">
+                      <span asp-validation-for="Title" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail3">Açıklama</label>
                       <textarea class="form-control" id="exampleTextarea1" asp-for="Description" rows="4"></textarea>
+                      <span asp-validation-for="Description" class="text-danger"></span>
                     </div>
                     <button type="submit" class="btn btn-outline-info">Kaydet</button>
                   </form>

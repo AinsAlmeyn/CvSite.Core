@@ -5,19 +5,36 @@
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
 }
 
-<form method="post">
-    @Html.HiddenFor(x => x.Id)
-    <label>District</label>
-    @Html.TextBoxFor(x => x.District, new {@class = "form-control"})
-    <br />
-    <label>CityCountry</label>
-    @Html.TextBoxFor(x => x.CityCountry, new {@class = "form-control"})
-    <br />
-    <label>Email</label>
-    @Html.TextBoxFor(x => x.Email, new {@class = "form-control"})
-    <br />
-    <label>PhoneNumber</label>
-    @Html.TextBoxFor(x => x.PhoneNumber, new {@class = "form-control"})
-    <br />
-    <button class="btn btn-outline-info">Guncelle</button>
-</form>
+
+
+<div class="col-12 grid-margin stretch-card">
+              <div class="card">
+                <div class="card-body">
+                  <h4 class="card-title">Get In Touch Edit</h4>
+                  <form class="forms-sample" method="post">
+                @Html.HiddenFor(x => x.Id)
+                    <div class="form-group">
+                      <label for="exampleInputName1">District</label>
+                      <input type="text" class="form-control" id="exampleInputName1" placeholder="District" asp-for="District">
+                      <span asp-validation-for="District" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputName1">CityCountry</label>
+                      <input type="text" class="form-control" id="exampleInputName1" placeholder="City / Country giriniz" asp-for="CityCountry">
+                      <span asp-validation-for="CityCountry" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail3">Email</label>
+                       <input type="text" class="form-control" id="exampleInputName1" placeholder="Email giriniz" asp-for="Email">
+                      <span asp-validation-for="Email" class="text-danger"></span>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail3">PhoneNumber</label>
+                       <input type="text" class="form-control" id="exampleInputName1" placeholder="PhoneNumber giriniz" asp-for="PhoneNumber">
+                      <span asp-validation-for="PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <button type="submit" class="btn btn-outline-info">Guncellemeleri Kaydet</button>
+                  </form>
+                </div>
+              </div>
+            </div>

@@ -11,7 +11,7 @@ namespace CvSite.API.Controllers.AdminControllers
     {
         private readonly ILogger _logger;
         private readonly IAboutSliderService aboutSliderService;
-        public AboutSliderController(IAboutSliderService aboutSliderService, ILogger logger)
+        public AboutSliderController(IAboutSliderService aboutSliderService, ILogger<AboutSlider> logger)
         {
             this.aboutSliderService = aboutSliderService;
             _logger = logger;

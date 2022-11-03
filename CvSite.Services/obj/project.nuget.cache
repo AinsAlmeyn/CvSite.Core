@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "5vs/kgAjBr1+Nhh9tYnY8O5mZieDp1CLsttmXkePWb9G2tZ6/TRb0s5Z0ay39meSOxZdw/i9p9HEKLr4GcKnmQ==",
+  "dgSpecHash": "viAF1U2m4VNnl21SeW0XHtGsXoLZ27eA5x8OdcMjjUvOE46UbuSkM6wOy8kkFfInK3b8B182sLuMjTEZAaLiQQ==",
   "success": true,
   "projectFilePath": "F:\\C#PROJECT\\CvSite.Core\\CvSite.Services\\CvSite.Services.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\YILDIRAY\\.nuget\\packages\\fluentvalidation\\11.2.1\\fluentvalidation.11.2.1.nupkg.sha512",
+    "C:\\Users\\YILDIRAY\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.2.2\\fluentvalidation.aspnetcore.11.2.2.nupkg.sha512",
+    "C:\\Users\\YILDIRAY\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.2.1\\fluentvalidation.dependencyinjectionextensions.11.2.1.nupkg.sha512",
     "C:\\Users\\YILDIRAY\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\YILDIRAY\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\YILDIRAY\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",

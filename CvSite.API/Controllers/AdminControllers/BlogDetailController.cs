@@ -1,4 +1,5 @@
-﻿using CvSite.Core.Services;
+﻿using CvSite.Core.Entities;
+using CvSite.Core.Services;
 using CvSite.Services.ServiceCon;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +12,7 @@ namespace CvSite.API.Controllers.AdminControllers
     {
         private readonly IBlogInfoService _blogInfoService;
         private readonly ILogger logger;
-        public BlogDetailController(IBlogInfoService blogInfoService, ILogger logger)
+        public BlogDetailController(IBlogInfoService blogInfoService, ILogger<AboutSlider> logger)
         {
             _blogInfoService = blogInfoService;
             this.logger = logger;

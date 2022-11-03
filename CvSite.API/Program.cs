@@ -5,6 +5,7 @@ using CvSite.Core.Services;
 using CvSite.DataAccess;
 using CvSite.DataAccess.RepoCon;
 using CvSite.Services.ServiceCon;
+using FluentValidation.AspNetCore;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 

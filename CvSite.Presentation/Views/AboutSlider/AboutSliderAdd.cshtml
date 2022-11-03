@@ -1,4 +1,5 @@
 ﻿@model AboutSlider
+
 @{
     ViewData["Title"] = "AboutSliderAdd";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
@@ -7,21 +8,24 @@
 <div class="col-12 grid-margin stretch-card">
               <div class="card">
                 <div class="card-body">
-                  <h4 class="card-title">Yeni Duyuru Girişi</h4>
+                  <h4 class="card-title">Yeni Slider Ogesi Ekle</h4>
                   <form class="forms-sample" method="post">
                     <div class="form-group">
                       <label for="exampleInputName1">Başlık</label>
                       <input type="text" class="form-control" id="exampleInputName1" placeholder="Başlık giriniz" asp-for="SliderTitle">
+                      <span asp-validation-for="SliderTitle" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputName1">Başlık</label>
                       <input type="text" class="form-control" id="exampleInputName1" placeholder="Icon giriniz" asp-for="SliderIcon">
+                      <span asp-validation-for="SliderIcon" class="text-danger"></span>
                     </div>
                     <div class="form-group">
                       <label for="exampleInputEmail3">Açıklama</label>
                       <textarea class="form-control" id="exampleTextarea1" asp-for="SliderShortDescription" rows="4"></textarea>
+                      <span asp-validation-for="SliderShortDescription" class="text-danger"></span>
                     </div>
-                    <button type="submit" class="btn btn-outline-info">Kaydet</button>
+                    <button type="submit" class="btn btn-outline-info">Yeni Ogeyi Ekle</button>
                   </form>
                 </div>
               </div>

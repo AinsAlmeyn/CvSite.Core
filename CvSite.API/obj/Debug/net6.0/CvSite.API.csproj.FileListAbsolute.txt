@@ -271,3 +271,7 @@ F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\CvSite.Services.pdb
 F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\CvSite.Core.pdb
 F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\CvSite.DataAccess.pdb
 F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\FluentValidation.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\NReco.Logging.File.dll

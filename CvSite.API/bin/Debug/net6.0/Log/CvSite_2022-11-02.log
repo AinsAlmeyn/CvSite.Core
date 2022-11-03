@@ -1,0 +1,1170 @@
+2022-11-02T15:17:01.0562570+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:17:01.0585534+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:17:01.0648189+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:17:01.0665987+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:17:01.0681194+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:17:02.2908708+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:17:03.2170366+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:17:03.4629600+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:18:14.0903684+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:18:14.0919848+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:18:14.0982904+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:18:14.0997235+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:18:14.1011956+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:18:15.3987142+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:18:16.1138109+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:18:16.3037768+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:19:26.3072105+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:19:26.3092770+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:19:26.3154383+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:19:26.3166827+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:19:26.3176598+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:19:27.6905500+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:19:28.3954895+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:19:28.5864562+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:19:52.2506860+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:19:52.3842133+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:19:53.2770117+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:19:53.4440703+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:19:53.9155394+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:19:54.1271250+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:19:54.7905450+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:19:54.9729190+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:20:13.3693947+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:20:13.5157957+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:22:02.9035025+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:22:02.9052160+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:22:02.9126899+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:22:02.9142359+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:22:02.9155668+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:22:14.5147079+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:22:15.0907366+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:22:15.2527327+03:00	FAIL	[Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware]	[UnhandledException]	An unhandled exception has occurred while executing the request.System.InvalidOperationException: Unable to resolve service for type 'Microsoft.Extensions.Logging.ILogger' while attempting to activate 'CvSite.API.Controllers.PresentationControllers.HomePresentationController'.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.GetService(IServiceProvider sp, Type type, Type requiredBy, Boolean isDefaultParameterRequired)
+   at lambda_method9(Closure , IServiceProvider , Object[] )
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerActivatorProvider.<>c__DisplayClass7_0.<CreateActivator>b__0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Swashbuckle.AspNetCore.SwaggerUI.SwaggerUIMiddleware.Invoke(HttpContext httpContext)
+   at Swashbuckle.AspNetCore.Swagger.SwaggerMiddleware.Invoke(HttpContext httpContext, ISwaggerProvider swaggerProvider)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+
+2022-11-02T15:25:36.6791981+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:25:36.6808706+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:25:36.6879074+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:25:36.6894862+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:25:36.6906648+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:25:43.1272020+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:25:43.7148735+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:25:45.4891959+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-02T15:25:45.5836289+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-02T15:30:13.8972782+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:30:13.9002887+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:30:13.9096104+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:30:13.9118517+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:30:13.9131174+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:30:15.5268773+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:30:16.1057741+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:16.9300057+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-02T15:30:17.0200184+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-02T15:30:17.2336267+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:17.2470121+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-02T15:30:17.2535292+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-02T15:30:17.2766357+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:17.2884452+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:30:17.2969808+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:30:17.3211636+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:17.3276065+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-02T15:30:17.3346952+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-02T15:30:17.3536555+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:17.3617666+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[BlogInfoId], [b].[Author], [b].[Content], [b].[CreateDate], [b].[Description], [b].[Image], [b].[MainImage], [b].[Title]
+FROM [BlogInfos] AS [b]
+2022-11-02T15:30:17.3831467+03:00	INFO	[CvSite.Core.Entities.BlogInfo]	[0]	BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.
+2022-11-02T15:30:17.4138989+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:17.4228013+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-02T15:30:17.4304257+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-02T15:30:31.8971935+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:31.8996407+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:30:31.9013603+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:30:34.7832069+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:35.0937445+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (131ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AboutSlider] ([SliderIcon], [SliderShortDescription], [SliderTitle])
+VALUES (@p0, @p1, @p2);
+SELECT [SliderId]
+FROM [AboutSlider]
+WHERE @@ROWCOUNT = 1 AND [SliderId] = scope_identity();
+2022-11-02T15:30:35.3124423+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2022-11-02T15:30:35.4280613+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	 Beklenmeyen hatayla karsilasildi. An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:30:36.3604182+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:36.4321329+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (69ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AboutSlider] ([SliderIcon], [SliderShortDescription], [SliderTitle])
+VALUES (@p0, @p1, @p2);
+SELECT [SliderId]
+FROM [AboutSlider]
+WHERE @@ROWCOUNT = 1 AND [SliderId] = scope_identity();
+2022-11-02T15:30:36.6162710+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2022-11-02T15:30:36.7283149+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	 Beklenmeyen hatayla karsilasildi. An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:30:55.6195358+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:55.6972946+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (76ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AboutSlider] ([SliderIcon], [SliderShortDescription], [SliderTitle])
+VALUES (@p0, @p1, @p2);
+SELECT [SliderId]
+FROM [AboutSlider]
+WHERE @@ROWCOUNT = 1 AND [SliderId] = scope_identity();
+2022-11-02T15:30:55.8526121+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2022-11-02T15:30:55.9617235+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	 Beklenmeyen hatayla karsilasildi. An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:30:59.3345702+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:30:59.4083409+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (70ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AboutSlider] ([SliderIcon], [SliderShortDescription], [SliderTitle])
+VALUES (@p0, @p1, @p2);
+SELECT [SliderId]
+FROM [AboutSlider]
+WHERE @@ROWCOUNT = 1 AND [SliderId] = scope_identity();
+2022-11-02T15:30:59.5672318+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2022-11-02T15:30:59.6731262+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	 Beklenmeyen hatayla karsilasildi. An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:31:00.5176276+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:31:00.5908475+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (71ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AboutSlider] ([SliderIcon], [SliderShortDescription], [SliderTitle])
+VALUES (@p0, @p1, @p2);
+SELECT [SliderId]
+FROM [AboutSlider]
+WHERE @@ROWCOUNT = 1 AND [SliderId] = scope_identity();
+2022-11-02T15:31:00.7640831+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:5de05602-5198-4fea-a43d-b584f7894a2c
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2022-11-02T15:31:00.8782629+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	 Beklenmeyen hatayla karsilasildi. An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:32:10.0829589+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:32:10.0850200+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:32:10.0931598+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:32:10.0948030+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:32:10.0959855+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:32:11.6682837+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:32:12.3061336+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:13.0837680+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-02T15:32:13.1713141+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-02T15:32:13.3911948+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:13.4048564+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-02T15:32:13.4130248+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-02T15:32:13.4357637+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:13.4475375+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:32:13.4569279+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:32:13.4812977+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:13.4865843+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-02T15:32:13.4944542+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-02T15:32:13.5114404+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:13.5181537+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[BlogInfoId], [b].[Author], [b].[Content], [b].[CreateDate], [b].[Description], [b].[Image], [b].[MainImage], [b].[Title]
+FROM [BlogInfos] AS [b]
+2022-11-02T15:32:13.5408608+03:00	INFO	[CvSite.Core.Entities.BlogInfo]	[0]	BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.
+2022-11-02T15:32:13.5742245+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:13.5814577+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-02T15:32:13.5910370+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-02T15:32:16.9287849+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:16.9318200+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:32:16.9342936+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:32:20.4246513+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:20.7195293+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (129ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AboutSlider] ([SliderIcon], [SliderShortDescription], [SliderTitle])
+VALUES (@p0, @p1, @p2);
+SELECT [SliderId]
+FROM [AboutSlider]
+WHERE @@ROWCOUNT = 1 AND [SliderId] = scope_identity();
+2022-11-02T15:32:21.0105583+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f64d21d0-c725-473b-b23e-abfc654f0e55
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderIcon', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f64d21d0-c725-473b-b23e-abfc654f0e55
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2022-11-02T15:32:21.1348304+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	 Beklenmeyen hatayla karsilasildi. An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:32:25.6892304+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:25.7814376+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (88ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AboutSlider] ([SliderIcon], [SliderShortDescription], [SliderTitle])
+VALUES (@p0, @p1, @p2);
+SELECT [SliderId]
+FROM [AboutSlider]
+WHERE @@ROWCOUNT = 1 AND [SliderId] = scope_identity();
+2022-11-02T15:32:25.9764878+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderShortDescription', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f64d21d0-c725-473b-b23e-abfc654f0e55
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderShortDescription', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. INSERT fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__188_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.Tasks.Task.<>c.<.cctor>b__272_0(Object obj)
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReaderAsync(RelationalCommandParameterObject parameterObject, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+ClientConnectionId:f64d21d0-c725-473b-b23e-abfc654f0e55
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.ExecuteAsync(IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.ExecuteAsync(IEnumerable`1 commandBatches, IRelationalConnection connection, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(IList`1 entriesToSave, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChangesAsync(StateManager stateManager, Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.ExecuteAsync[TState,TResult](TState state, Func`4 operation, Func`4 verifySucceeded, CancellationToken cancellationToken)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChangesAsync(Boolean acceptAllChangesOnSuccess, CancellationToken cancellationToken)
+
+2022-11-02T15:32:26.0960740+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	 Beklenmeyen hatayla karsilasildi. An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:32:27.4715298+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:27.4751887+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [AboutSlider] ([SliderIcon], [SliderShortDescription], [SliderTitle])
+VALUES (@p0, @p1, @p2);
+SELECT [SliderId]
+FROM [AboutSlider]
+WHERE @@ROWCOUNT = 1 AND [SliderId] = scope_identity();
+2022-11-02T15:32:27.6017802+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderAdd icin islem basarili gerceklesti, Nesne = asdf
+2022-11-02T15:32:27.6190219+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:27.6214817+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:32:27.6241928+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:32:29.5515897+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:29.6042950+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+WHERE [a].[SliderId] = @__p_0
+2022-11-02T15:32:29.6290732+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[@p0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+DELETE FROM [AboutSlider]
+WHERE [SliderId] = @p0;
+SELECT @@ROWCOUNT;
+2022-11-02T15:32:29.6401779+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	GetByIdDelete icin nesne basariyla kaldirildi asdf, 18
+2022-11-02T15:32:29.6523436+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:32:29.6546405+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:32:29.6569940+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:35:07.9597784+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:35:07.9615565+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:35:07.9679029+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:35:07.9691109+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:35:07.9701901+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:35:09.1903135+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:35:09.9231866+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:10.8472362+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (52ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-02T15:35:10.9430480+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-02T15:35:11.1548923+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:11.1682679+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-02T15:35:11.1759222+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-02T15:35:11.2022973+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:11.2144493+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:35:11.2248509+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:35:11.2562830+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:11.2636035+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-02T15:35:11.2728148+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-02T15:35:11.2914324+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:11.3010985+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[BlogInfoId], [b].[Author], [b].[Content], [b].[CreateDate], [b].[Description], [b].[Image], [b].[MainImage], [b].[Title]
+FROM [BlogInfos] AS [b]
+2022-11-02T15:35:11.3270336+03:00	INFO	[CvSite.Core.Entities.BlogInfo]	[0]	BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.
+2022-11-02T15:35:11.3656930+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:11.3762475+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-02T15:35:11.3861545+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-02T15:35:15.2765962+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:15.2797557+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:35:15.2824001+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:35:16.8738208+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:16.9919605+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (39ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+WHERE [a].[SliderId] = @__p_0
+2022-11-02T15:35:16.9954894+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSlider/GetById id uzerinden objeyi basarili sekilde dondurdu. Response = 3
+2022-11-02T15:35:22.7820087+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:23.0118108+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (109ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AboutSlider] SET [SliderIcon] = @p0, [SliderShortDescription] = @p1, [SliderTitle] = @p2
+WHERE [SliderId] = @p3;
+SELECT @@ROWCOUNT;
+2022-11-02T15:35:23.1405625+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderShortDescription', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:e895f092-242b-4bb9-b68e-31a651ac3ef1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderShortDescription', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:e895f092-242b-4bb9-b68e-31a651ac3ef1
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+
+2022-11-02T15:35:23.1755090+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	Bir hata olustu hata mesaji = An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:35:28.3701594+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:28.3747980+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AboutSlider] SET [SliderIcon] = @p0, [SliderShortDescription] = @p1, [SliderTitle] = @p2
+WHERE [SliderId] = @p3;
+SELECT @@ROWCOUNT;
+2022-11-02T15:35:28.3903409+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	About Slider basariyla guncellendi.
+2022-11-02T15:35:28.4074364+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:35:28.4105896+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:35:28.4128306+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:42:54.8193284+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:42:54.8222559+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:42:54.8308724+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:42:54.8335010+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:42:54.8359748+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:42:56.5072561+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:42:57.0968196+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:42:57.8597578+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-02T15:42:57.9528270+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-02T15:42:58.1850742+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:42:58.1987134+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-02T15:42:58.2061215+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-02T15:42:58.2328443+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:42:58.2441556+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:42:58.2549406+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:42:58.2813094+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:42:58.2883970+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-02T15:42:58.2958953+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-02T15:42:58.3167861+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:42:58.3244050+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[BlogInfoId], [b].[Author], [b].[Content], [b].[CreateDate], [b].[Description], [b].[Image], [b].[MainImage], [b].[Title]
+FROM [BlogInfos] AS [b]
+2022-11-02T15:42:58.3456948+03:00	INFO	[CvSite.Core.Entities.BlogInfo]	[0]	BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.
+2022-11-02T15:42:58.3749560+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:42:58.3829818+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-02T15:42:58.3911756+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-02T15:43:03.1335748+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:43:03.1359457+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:43:03.1379215+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:43:04.9544877+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:43:05.0635664+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (30ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+WHERE [a].[SliderId] = @__p_0
+2022-11-02T15:43:05.0666417+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSlider/GetById id uzerinden objeyi basarili sekilde dondurdu. Response = 4
+2022-11-02T15:43:08.2042552+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:43:08.4226653+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (102ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AboutSlider] SET [SliderIcon] = @p0, [SliderShortDescription] = @p1, [SliderTitle] = @p2
+WHERE [SliderId] = @p3;
+SELECT @@ROWCOUNT;
+2022-11-02T15:43:08.5333656+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderShortDescription', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:4ef9a13e-aa78-4be7-8455-c8e56da78402
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderShortDescription', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:4ef9a13e-aa78-4be7-8455-c8e56da78402
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+
+2022-11-02T15:43:08.5632298+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	Bir hata olustu hata mesaji = An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:43:21.1051128+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:43:21.1104483+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AboutSlider] SET [SliderIcon] = @p0, [SliderShortDescription] = @p1, [SliderTitle] = @p2
+WHERE [SliderId] = @p3;
+SELECT @@ROWCOUNT;
+2022-11-02T15:43:21.1256813+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	About Slider basariyla guncellendi.
+2022-11-02T15:43:21.1393787+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:43:21.1419048+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:43:21.1436252+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:46:20.5211397+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:46:20.5226437+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:46:20.5289435+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:46:20.5303242+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:46:20.5314352+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:46:21.9452076+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:46:22.6029201+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:23.3766392+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (42ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-02T15:46:23.4619529+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-02T15:46:23.6848665+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:23.6988710+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-02T15:46:23.7072287+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-02T15:46:23.7325441+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:23.7456843+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:46:23.7558955+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:46:23.7841246+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:23.7908241+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-02T15:46:23.7989138+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-02T15:46:23.8185946+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:23.8262792+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[BlogInfoId], [b].[Author], [b].[Content], [b].[CreateDate], [b].[Description], [b].[Image], [b].[MainImage], [b].[Title]
+FROM [BlogInfos] AS [b]
+2022-11-02T15:46:23.8483143+03:00	INFO	[CvSite.Core.Entities.BlogInfo]	[0]	BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.
+2022-11-02T15:46:23.8761049+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:23.8845760+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-02T15:46:23.8932459+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-02T15:46:27.2888509+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:27.2920710+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:46:27.2943511+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:46:28.6178853+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:28.7241245+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (32ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+WHERE [a].[SliderId] = @__p_0
+2022-11-02T15:46:28.7272749+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSlider/GetById id uzerinden objeyi basarili sekilde dondurdu. Response = 4
+2022-11-02T15:46:33.4888714+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:33.7183085+03:00	FAIL	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandError]	Failed executing DbCommand (110ms) [Parameters=[@p3='?' (DbType = Int32), @p0='?' (Size = 4000), @p1='?' (Size = 120), @p2='?' (Size = 20)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+UPDATE [AboutSlider] SET [SliderIcon] = @p0, [SliderShortDescription] = @p1, [SliderTitle] = @p2
+WHERE [SliderId] = @p3;
+SELECT @@ROWCOUNT;
+2022-11-02T15:46:33.8417620+03:00	FAIL	[Microsoft.EntityFrameworkCore.Update]	[Microsoft.EntityFrameworkCore.Update.SaveChangesFailed]	An exception occurred in the database while saving changes for context type 'CvSite.DataAccess.CvSiteDbContext'.
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderShortDescription', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:5eddfa84-1a67-4661-b451-e6894d9826ea
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while saving the entity changes. See the inner exception for details.
+ ---> Microsoft.Data.SqlClient.SqlException (0x80131904): Cannot insert the value NULL into column 'SliderShortDescription', table 'CvSiteDb.dbo.AboutSlider'; column does not allow nulls. UPDATE fails.
+The statement has been terminated.
+   at Microsoft.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at Microsoft.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at Microsoft.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at Microsoft.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at Microsoft.Data.SqlClient.SqlDataReader.get_MetaData()
+   at Microsoft.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString, Boolean isInternal, Boolean forDescribeParameterEncryption, Boolean shouldCacheForAlwaysEncrypted)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean isAsync, Int32 timeout, Task& task, Boolean asyncWrite, Boolean inRetry, SqlDataReader ds, Boolean describeParameterEncryptionRequest)
+   at Microsoft.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean& usedCache, Boolean asyncWrite, Boolean inRetry, String method)
+   at Microsoft.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalCommand.ExecuteReader(RelationalCommandParameterObject parameterObject)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+ClientConnectionId:5eddfa84-1a67-4661-b451-e6894d9826ea
+Error Number:515,State:2,Class:16
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(StateManager stateManager, Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+
+2022-11-02T15:46:33.8744245+03:00	FAIL	[CvSite.Core.Entities.AboutSlider]	[0]	Bir hata olustu hata mesaji = An error occurred while saving the entity changes. See the inner exception for details.
+2022-11-02T15:46:35.7163978+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:46:35.7230080+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+WHERE [a].[SliderId] = @__p_0
+2022-11-02T15:46:35.7243174+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSlider/GetById id uzerinden objeyi basarili sekilde dondurdu. Response = 4
+2022-11-02T15:52:04.3335632+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-02T15:52:04.3357425+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-02T15:52:04.3425550+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-02T15:52:04.3442682+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-02T15:52:04.3456056+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-02T15:52:05.3754702+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-02T15:52:05.9393549+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:07.0621889+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-02T15:52:07.1461465+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-02T15:52:07.3361789+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:07.3497998+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-02T15:52:07.3564675+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-02T15:52:07.3801558+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:07.3915616+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:52:07.4000318+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:52:07.4245166+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:07.4312193+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-02T15:52:07.4389367+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-02T15:52:07.4587134+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:07.4671157+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[BlogInfoId], [b].[Author], [b].[Content], [b].[CreateDate], [b].[Description], [b].[Image], [b].[MainImage], [b].[Title]
+FROM [BlogInfos] AS [b]
+2022-11-02T15:52:07.4884848+03:00	INFO	[CvSite.Core.Entities.BlogInfo]	[0]	BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.
+2022-11-02T15:52:07.5189363+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:07.5265495+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-02T15:52:07.5342361+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-02T15:52:32.9377308+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:33.1289793+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (30ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+SET NOCOUNT ON;
+INSERT INTO [Messages] ([FormMessage], [Name], [Subject], [Surname])
+VALUES (@p0, @p1, @p2, @p3);
+SELECT [Id]
+FROM [Messages]
+WHERE @@ROWCOUNT = 1 AND [Id] = scope_identity();
+2022-11-02T15:52:33.1792775+03:00	INFO	[CvSite.Core.Entities.Message]	[0]	Message/MessageAdd icin islem basarili.3
+2022-11-02T15:52:33.1983732+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:33.2029168+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-02T15:52:33.2046193+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-02T15:52:33.2122595+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:33.2147506+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-02T15:52:33.2163381+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-02T15:52:33.2235063+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:33.2253013+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:52:33.2268329+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-02T15:52:33.2334673+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:33.2355417+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-02T15:52:33.2374164+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-02T15:52:33.2447143+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:33.2469316+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[BlogInfoId], [b].[Author], [b].[Content], [b].[CreateDate], [b].[Description], [b].[Image], [b].[MainImage], [b].[Title]
+FROM [BlogInfos] AS [b]
+2022-11-02T15:52:33.2486142+03:00	INFO	[CvSite.Core.Entities.BlogInfo]	[0]	BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.
+2022-11-02T15:52:33.2608461+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:52:33.2629218+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-02T15:52:33.2643968+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-02T15:53:10.1314871+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-02T15:53:10.1343991+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-02T15:53:10.1357086+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.

@@ -1,4 +1,5 @@
-﻿using CvSite.Core.Services;
+﻿using CvSite.Core.Entities;
+using CvSite.Core.Services;
 using CvSite.Services.ServiceCon;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
@@ -11,7 +12,7 @@ namespace CvSite.API.Controllers.PresentationControllers
     {
         private readonly IGetInTouchService getInTouchService;
         private readonly ILogger logger;
-        public GetInTouchPresentationController(IGetInTouchService getInTouchService, ILogger logger)
+        public GetInTouchPresentationController(IGetInTouchService getInTouchService, ILogger<GetInTouch> logger)
         {
             this.getInTouchService = getInTouchService;
             this.logger = logger;

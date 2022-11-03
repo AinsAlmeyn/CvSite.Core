@@ -278,3 +278,7 @@ F:\C#PROJECT\CvSite.Core\CvSite.Presentation\obj\Debug\net6.0\refint\CvSite.Pres
 F:\C#PROJECT\CvSite.Core\CvSite.Presentation\obj\Debug\net6.0\CvSite.Presentation.pdb
 F:\C#PROJECT\CvSite.Core\CvSite.Presentation\obj\Debug\net6.0\CvSite.Presentation.genruntimeconfig.cache
 F:\C#PROJECT\CvSite.Core\CvSite.Presentation\obj\Debug\net6.0\ref\CvSite.Presentation.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Presentation\bin\Debug\net6.0\FluentValidation.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Presentation\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Presentation\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+F:\C#PROJECT\CvSite.Core\CvSite.Presentation\bin\Debug\net6.0\NReco.Logging.File.dll

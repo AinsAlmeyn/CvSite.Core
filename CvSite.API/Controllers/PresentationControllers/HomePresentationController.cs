@@ -17,7 +17,7 @@ namespace CvSite.API.Controllers.PresentationControllers
     {
         private readonly IHomeService _homeService;
         private readonly ILogger logger;
-        public HomePresentationController(IHomeService homeService, ILogger logger)
+        public HomePresentationController(IHomeService homeService, ILogger<Home> logger)
         {
             _homeService = homeService;
             this.logger = logger;

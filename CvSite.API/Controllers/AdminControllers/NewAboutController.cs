@@ -14,7 +14,7 @@ namespace CvSite.API.Controllers.AdminControllers
         private readonly INewAboutService service;
         private readonly ILogger logger;
 
-        public NewAboutController(INewAboutService service, ILogger logger)
+        public NewAboutController(INewAboutService service, ILogger<NewAbout> logger)
         {
             this.service = service;
             this.logger = logger;

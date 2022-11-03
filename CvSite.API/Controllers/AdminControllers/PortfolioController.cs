@@ -13,7 +13,7 @@ namespace CvSite.API.Controllers.AdminControllers
     {
         private readonly ILogger _logger;
         private readonly IPortfolioService portfolioService;
-        public PortfolioController(IPortfolioService portfolioService, ILogger logger)
+        public PortfolioController(IPortfolioService portfolioService, ILogger<Portfolio> logger)
         {
             this.portfolioService = portfolioService;
             _logger = logger;

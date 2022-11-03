@@ -11,7 +11,7 @@ namespace CvSite.API.Controllers.AdminControllers
     {
         private readonly IHomeService homeService;
         private readonly ILogger logger;
-        public NewHomeController(IHomeService homeService, ILogger logger)
+        public NewHomeController(IHomeService homeService, ILogger<Home> logger)
         {
             this.homeService = homeService;
             this.logger = logger;
