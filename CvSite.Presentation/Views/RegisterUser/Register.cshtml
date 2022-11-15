@@ -1,0 +1,67 @@
+﻿@model UserSignUpViewModel
+@{
+	Layout = null;
+}
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+	<title>Kayit Ekrani</title>
+
+	<!-- Meta tags -->
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<!-- Style -->
+	<link rel="stylesheet" href="~/snow-login-form-starter/css/style.css" type="text/css" media="all" />
+</head>
+
+<body>
+	<!-- login form -->
+	<section class="w3l-login">
+		<div class="overlay">
+			<div class="wrapper">
+				<div class="logo">
+					<a class="brand-logo" href="index.html">Kullanici Kayit Formu</a>
+				</div>
+				<div class="form-section">
+					<h3>Login</h3>
+					<h6>To continue with Us</h6>
+					<form asp-action="Register" method="post" class="signin-form">
+						<div class="form-input">
+							<input type="text" asp-for="NameSurname" placeholder="Ad Soyad" autofocus>
+							<span asp-validation-for="NameSurname" class="text-bg-danger"></span>
+						</div>
+						<div class="form-input">
+							<input type="text" asp-for="UserName" placeholder="Kullanici Adi" autofocus>
+							<span asp-validation-for="UserName" class="text-bg-danger"></span>
+						</div>
+						<div class="form-input">
+							<input type="password" asp-for="Password" placeholder="Sifre" required="">
+							<span asp-validation-for="Password" class="text-bg-danger"></span>
+						</div>
+						<div class="form-input">
+							<input type="text" asp-for="ConfirmPassword" placeholder="Sifre Tekrar" required="">
+							<span asp-validation-for="ConfirmPassword" class="text-bg-danger"></span>
+						</div>
+						<div class="form-input">
+							<input type="email" asp-for="Mail" placeholder="Email" required="">
+							<span asp-validation-for="Mail" class="text-bg-danger"></span>
+						</div>
+						<button type="submit" class="btn btn-primary theme-button mt-4">Kayit Ol</button>
+					</form>
+					<p class="signup">Hesabin var mi ?<a href="/Account/Login" class="signuplink">Giris Yap</a></p>
+					<div class="text-danger" asp-validation-summary="ModelOnly">
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<!-- /login form -->
+</body>
+
+</html>
+

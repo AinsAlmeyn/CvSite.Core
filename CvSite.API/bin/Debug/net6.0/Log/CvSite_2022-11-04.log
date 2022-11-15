@@ -1,0 +1,157 @@
+2022-11-04T05:49:11.1643319+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-04T05:49:11.6167600+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:50:00.4838487+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-04T05:50:00.8961930+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:50:11.4625403+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-04T05:50:11.8973138+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:50:14.7172838+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2022-11-04T05:50:14.7381006+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (12ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-04T05:50:14.7403068+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1
+2022-11-04T05:50:14.7406059+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2022-11-04T05:50:14.7536355+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2022-11-04T05:50:14.7661635+03:00	INFO	[Microsoft.EntityFrameworkCore.Migrations]	[Microsoft.EntityFrameworkCore.Migrations.MigrationApplying]	Applying migration '20221104025001_Admin_With_Data'.
+2022-11-04T05:50:14.8173034+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+CREATE TABLE [Admins] (
+    [Id] int NOT NULL IDENTITY,
+    [AdminUserName] nvarchar(max) NULL,
+    [AdminUserPassword] nvarchar(max) NULL,
+    CONSTRAINT [PK_Admins] PRIMARY KEY ([Id])
+);
+2022-11-04T05:50:14.8452448+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AdminUserName', N'AdminUserPassword') AND [object_id] = OBJECT_ID(N'[Admins]'))
+    SET IDENTITY_INSERT [Admins] ON;
+INSERT INTO [Admins] ([Id], [AdminUserName], [AdminUserPassword])
+VALUES (1, N'qwertyu', N'qwertyu');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'Id', N'AdminUserName', N'AdminUserPassword') AND [object_id] = OBJECT_ID(N'[Admins]'))
+    SET IDENTITY_INSERT [Admins] OFF;
+2022-11-04T05:50:14.8464821+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20221104025001_Admin_With_Data', N'6.0.10');
+2022-11-04T05:56:21.7150506+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: https://localhost:7154
+2022-11-04T05:56:21.7279169+03:00	INFO	[Microsoft.Hosting.Lifetime]	[ListeningOnAddress]	Now listening on: http://localhost:5039
+2022-11-04T05:56:21.7434820+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Application started. Press Ctrl+C to shut down.
+2022-11-04T05:56:21.7505095+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Hosting environment: Development
+2022-11-04T05:56:21.7563343+03:00	INFO	[Microsoft.Hosting.Lifetime]	[0]	Content root path: F:\C#PROJECT\CvSite.Core\CvSite.API\
+2022-11-04T05:56:23.5566844+03:00	WARN	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.RedundantAddServicesCallWarning]	'AddEntityFramework*' was called on the service provider, but 'UseInternalServiceProvider' wasn't called in the DbContext options configuration. Consider removing the 'AddEntityFramework*' call, as in most cases it's not needed and may cause conflicts with other products and services registered in the same service provider.
+2022-11-04T05:56:24.1527041+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:25.8527135+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-04T05:56:25.9413770+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-04T05:56:26.2026681+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:26.2175040+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-04T05:56:26.2248014+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-04T05:56:26.2483953+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:26.2615554+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-04T05:56:26.2717586+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-04T05:56:26.3057542+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:26.3168044+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-04T05:56:26.3244976+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-04T05:56:26.3451269+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:26.3533477+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [b].[BlogInfoId], [b].[Author], [b].[Content], [b].[CreateDate], [b].[Description], [b].[Image], [b].[MainImage], [b].[Title]
+FROM [BlogInfos] AS [b]
+2022-11-04T05:56:26.3757477+03:00	INFO	[CvSite.Core.Entities.BlogInfo]	[0]	BlogInfoPresentation/BlogInfo datalari basariyla dondurdu.
+2022-11-04T05:56:26.4076193+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:26.4161340+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-04T05:56:26.4241886+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-04T05:56:35.3225409+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:35.3251062+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-04T05:56:35.3269521+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-04T05:56:36.9624068+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:36.9671012+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-04T05:56:36.9689201+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.
+2022-11-04T05:56:37.6496976+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:37.6521207+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-04T05:56:37.6542035+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-04T05:56:38.0870777+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:38.0939678+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[Id], [m].[FormMessage], [m].[Name], [m].[Subject], [m].[Surname]
+FROM [Messages] AS [m]
+2022-11-04T05:56:38.1029369+03:00	INFO	[CvSite.Core.Entities.Message]	[0]	Message/ListMessage icin liste basarilir sekilde dondu. Response = System.Collections.Generic.List`1[CvSite.Core.Entities.Message]
+2022-11-04T05:56:38.5798617+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:38.5824057+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-04T05:56:38.5841479+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-04T05:56:39.1926077+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:39.1948187+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-04T05:56:39.1968579+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-04T05:56:40.0798525+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:40.0820011+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-04T05:56:40.0839461+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-04T05:56:40.5982881+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:40.6006596+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-04T05:56:40.6026431+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-04T05:56:40.9281255+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:40.9310813+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [n].[NewId], [n].[Description], [n].[Photo], [n].[Title]
+FROM [NewAbouts] AS [n]
+ORDER BY [n].[NewId] DESC
+2022-11-04T05:56:40.9330799+03:00	INFO	[CvSite.Core.Entities.NewAbout]	[0]	AboutPresentation/NewAbout basarili sekilde sayfayi dondurdu.
+2022-11-04T05:56:41.5468076+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:41.5500455+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [p].[Id], [p].[Description], [p].[Image], [p].[Title]
+FROM [Portfolios] AS [p]
+2022-11-04T05:56:41.5523499+03:00	INFO	[CvSite.Core.Entities.Portfolio]	[0]	PortfolioPresentation/PortfolioList datalari basariyla dondurdu.
+2022-11-04T05:56:41.8549546+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:41.8585404+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-04T05:56:41.8602784+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-04T05:56:42.0847709+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:42.0894376+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [g].[Id], [g].[CityCountry], [g].[District], [g].[Email], [g].[PhoneNumber]
+FROM [GetInTouches] AS [g]
+ORDER BY [g].[Id] DESC
+2022-11-04T05:56:42.0910616+03:00	INFO	[CvSite.Core.Entities.GetInTouch]	[0]	GetInTouchPresentation/OneTouch datalari basariyla dondurdu.
+2022-11-04T05:56:42.2811752+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:42.2838459+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [m].[Id], [m].[FormMessage], [m].[Name], [m].[Subject], [m].[Surname]
+FROM [Messages] AS [m]
+2022-11-04T05:56:42.2861333+03:00	INFO	[CvSite.Core.Entities.Message]	[0]	Message/ListMessage icin liste basarilir sekilde dondu. Response = System.Collections.Generic.List`1[CvSite.Core.Entities.Message]
+2022-11-04T05:56:42.4858494+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:42.4890929+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT [a].[SliderId], [a].[SliderIcon], [a].[SliderShortDescription], [a].[SliderTitle]
+FROM [AboutSlider] AS [a]
+2022-11-04T05:56:42.4911557+03:00	INFO	[CvSite.Core.Entities.AboutSlider]	[0]	AboutSliderPresentation/ListAboutSlider datalari basariyla dondurdu.
+2022-11-04T05:56:42.7287355+03:00	INFO	[Microsoft.EntityFrameworkCore.Infrastructure]	[Microsoft.EntityFrameworkCore.Infrastructure.ContextInitialized]	Entity Framework Core 6.0.10 initialized 'CvSiteDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.10' with options: MigrationsAssembly=CvSite.DataAccess 
+2022-11-04T05:56:42.7317271+03:00	INFO	[Microsoft.EntityFrameworkCore.Database.Command]	[Microsoft.EntityFrameworkCore.Database.Command.CommandExecuted]	Executed DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT TOP(1) [h].[Id], [h].[Jobs], [h].[LinkInstagram], [h].[LinkLinkedin], [h].[Photo]
+FROM [Homes] AS [h]
+ORDER BY [h].[Id] DESC
+2022-11-04T05:56:42.7334955+03:00	INFO	[CvSite.Core.Entities.Home]	[0]	HomePresentation/Home datalari basariyla dondurdu.

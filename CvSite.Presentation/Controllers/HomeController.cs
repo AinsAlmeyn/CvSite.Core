@@ -5,12 +5,14 @@ using CvSite.Presentation.Models;
 using Newtonsoft.Json;
 using static System.Net.WebRequestMethods;
 using System.Text;
+using Microsoft.AspNetCore.Authorization;
 
 namespace CvSite.Presentation.Controllers;
 
+[AllowAnonymous]
 public class HomeController : Controller
 {
-
+    
     public async Task<IActionResult> HomePage()
     {
         return View();

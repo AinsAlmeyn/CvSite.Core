@@ -27,6 +27,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWJvdXRTbGlkZXJcQWJvdXRTbGlkZXJJbmZvLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/AdminLayoutPartials/CssPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5MYXlvdXRQYXJ0aWFsc1xDc3NQYXJ0aWFsLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
@@ -101,6 +105,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Portfolio/PortfolioInfo.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9ydGZvbGlvXFBvcnRmb2xpb0luZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/RegisterUser/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUmVnaXN0ZXJVc2VyXFJlZ2lzdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [F:/C\#PROJECT/CvSite.Core/CvSite.Presentation/Views/Shared/Components/_AboutPartial/Default.cshtml]

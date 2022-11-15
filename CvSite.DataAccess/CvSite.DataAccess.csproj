@@ -7,14 +7,12 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <Folder Include="Seeds" />
-    </ItemGroup>
-
-    <ItemGroup>
       <ProjectReference Include="..\CvSite.Core\CvSite.Core.csproj" />
     </ItemGroup>
 
     <ItemGroup>
+      <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+      <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.10" />
       <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.10" />
       <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="6.0.10">
         <PrivateAssets>all</PrivateAssets>

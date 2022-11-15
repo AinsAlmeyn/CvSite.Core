@@ -1,6 +1,8 @@
 ﻿using CvSite.Core.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
+
 
 namespace CvSite.Presentation.ViewComponents
 {

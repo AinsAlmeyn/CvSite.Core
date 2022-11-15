@@ -6,6 +6,8 @@ using CvSite.DataAccess;
 using CvSite.DataAccess.RepoCon;
 using CvSite.Services.ServiceCon;
 using FluentValidation.AspNetCore;
+using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc.Authorization;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 
@@ -24,11 +26,11 @@ builder.Services.AddLogging(loggingBuilder =>
     });
 });
 
-builder.Services.AddControllers();
 
+builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-
+builder.Services.AddIdentity<AppUser, AppRole>().AddEntityFrameworkStores<CvSiteDbContext>();
 builder.Services.AddEntityFrameworkSqlServer().AddDbContext<CvSiteDbContext>(x =>
     x.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection"),
         option =>
@@ -70,7 +72,7 @@ if (app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 
 app.UseAuthorization();
-
+app.UseAuthentication();
 app.MapControllers();
 
 app.Run();

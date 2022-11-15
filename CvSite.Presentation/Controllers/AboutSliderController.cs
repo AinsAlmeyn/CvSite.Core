@@ -1,4 +1,5 @@
 ﻿using CvSite.Core.Entities;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.CodeAnalysis.Differencing;
 using Newtonsoft.Json;
@@ -7,6 +8,7 @@ using System.Text;
 
 namespace CvSite.Presentation.Controllers
 {
+    [Authorize]
     public class AboutSliderController : Controller
     {
         public string base_uri = "https://localhost:7154/api/AboutSliderPresentation/ListAboutSlider";
@@ -14,6 +16,7 @@ namespace CvSite.Presentation.Controllers
         public string GetByIdDelete = "https://localhost:7154/api/AboutSlider/GetByIdDelete/";
         public string Edit = "https://localhost:7154/api/AboutSlider/AboutSliderUpdate/";
         public string Add = "https://localhost:7154/api/AboutSlider/AboutSliderAdd/";
+
         public async Task<IActionResult> AboutSliderInfo()
         {
             using (var httpclient = new HttpClient())

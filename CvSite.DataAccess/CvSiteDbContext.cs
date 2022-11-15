@@ -1,20 +1,22 @@
 using System.Reflection;
 using CvSite.Core.Entities;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace CvSite.DataAccess;
 
-public class CvSiteDbContext : DbContext
+public class CvSiteDbContext : IdentityDbContext<AppUser,AppRole,int>
 {
     public CvSiteDbContext(DbContextOptions<CvSiteDbContext> options):base(options)
     {
         
     }
 
-    protected override void OnModelCreating(ModelBuilder modelBuilder)
+	protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         // modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetAssembly(typeof(CvSiteDbContext)));
         modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
+        base.OnModelCreating(modelBuilder);
     }
 
     public DbSet<NewAbout> NewAbouts { get; set; }
@@ -24,4 +26,5 @@ public class CvSiteDbContext : DbContext
     public DbSet<Home> Homes { get; set; }
     public DbSet<Message> Messages { get; set; }
     public DbSet<Portfolio> Portfolios { get; set; }
+    public DbSet<Admin> Admins { get; set; }
 }

@@ -275,3 +275,8 @@ F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\FluentValidation.dll
 F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
 F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\NReco.Logging.File.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Core.dll
+F:\C#PROJECT\CvSite.Core\CvSite.API\bin\Debug\net6.0\Microsoft.Extensions.Identity.Stores.dll
